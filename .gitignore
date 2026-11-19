@@ -1,0 +1,35 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Build and distribution
+dist/
+build/
+*.spec
+*.exe
+
+# Local datasets and user-specific configurations
+user_presets.json
+data/mitbih/
+data/cache/
+
+# Private scan images and temporary test results
+ЭКГ*.png
+ЭКГ*.jpg
+TDA_ECG_results*.png
+TDA_ECG_with_boxes.png
+*.log
+
+# IDE and OS files
+.idea/
+.vscode/
+.antigravity/
+.DS_Store
+Thumbs.db
